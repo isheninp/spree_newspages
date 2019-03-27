@@ -23,11 +23,18 @@ News for Spree
 5. Usage
 
 Add your templates:
+
 your_app/app/views/pages/news_index.html.erb
+
 your_app/app/views/pages/news.html.erb
 
+
 where
+
 news_index - index page, accessible by /news
+
 news - news page, accessible by /news/news-page
+
+
 
 Copyright (c) 2019 Pavel Ishenin, released under the New BSD License
