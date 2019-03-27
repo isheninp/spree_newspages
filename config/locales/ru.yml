@@ -1,0 +1,30 @@
+ru:
+  newspages:
+    publication_date: Дата публикации
+    picture: Изображение    
+  spree:
+    newspages: Страница новости
+    new_newspage: Новая новость
+  activerecord:
+    attributes:
+      spree/newspage:
+        title: Название
+        template: Шаблон
+        published: Опубликовано
+        slug: URL
+        anounce: Анонс
+        body: Контент
+    models:
+      spree/newspage:
+        one: Новость
+        other: Новости
+  spree:
+    models:
+      spree/newspage:
+        many: "Новости"
+        one: "Новость"
+        other: "Новости"
+    new_newspage: Добавить новость
+    admin:
+      tab:
+        newspages: "Новости"

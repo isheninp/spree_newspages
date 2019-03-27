@@ -1,0 +1,9 @@
+<%= render partial: 'og_meta_tags', locals: { newspage: @newspage } %>
+
+<% cache([:v3, @newspage]) do %>
+  <center><h1><%= @newspage.title %></h1></center>
+  <br>
+  <div id='newspage_content'>
+    <%= raw @newspage.body %>
+  </div>
+<% end %>

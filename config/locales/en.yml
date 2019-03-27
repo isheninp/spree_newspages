@@ -1,0 +1,9 @@
+en:
+  activerecord:
+    models:
+      spree/newspage:
+        one: News Page
+        other: News Pages
+  spree:
+    pages: News Page
+    new_page: New news

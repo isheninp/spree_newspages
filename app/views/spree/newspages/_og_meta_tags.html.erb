@@ -1,0 +1,6 @@
+<% content_for(:head) do %>
+  <% newspage_meta_title = newspage.meta_title.presence || @title %>
+  <meta name="title" content="<%= newspage_meta_title %>">
+  <meta property="og:title" content="<%= newspage_meta_title %>">
+  <meta property="og:description" content="<%= newspage.meta_description || meta_data[:description] %>">
+<% end %>

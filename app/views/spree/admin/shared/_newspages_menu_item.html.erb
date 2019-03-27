@@ -1,0 +1,5 @@
+<% if can?(:admin, Spree::Newspage) %>
+  <ul class='nav nav-sidebar'>
+    <%= tab Spree::Newspage, url: spree.admin_newspages_url, icon: 'header', label: plural_resource_name(Spree::Newspage) %>
+  </ul>
+<% end %>
