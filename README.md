@@ -37,4 +37,6 @@ news - news page, accessible by /news/news-page
 
 
 
+
+
 Copyright (c) 2019 Pavel Ishenin, released under the New BSD License
