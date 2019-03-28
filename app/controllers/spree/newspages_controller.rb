@@ -7,7 +7,6 @@ module Spree
       render "/pages/templates/news_index"
     end
     
-    
     def show
       
       @newspage=Spree::Newspage.where(slug: params[:slug]).first
